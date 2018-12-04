@@ -15,6 +15,6 @@ module.exports = {
       minPixelValue: 1,
       mediaQuery: false
     },
-    
+    "postcss-advanced-variables": {}
   }
 }

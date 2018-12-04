@@ -1,4 +1,6 @@
 <style lang="postcss" scoped>
+$border-radius: 20px;
+
 .flexibleContent {
   width: 750px;
   height: 500px;
@@ -6,25 +8,10 @@
 }
 
 .flexibleContent::after {
-  border-radius: 20px;
+  border-radius: $border-radius;
   border: 1px solid #999;
 }
 
-/* $dir: assets;
-
-@each $icon in (foo, bar, baz) {
-  .icon-$icon {
-    background: url("$dir/$icon.png");
-  }
-}
-
-@for $count from 1 to 5 by 2 {
-  @if $count > 2 {
-    .col-$count {
-      width: #{$count}0%;
-    }
-  }
-} */
 </style>
 
 
